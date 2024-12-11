@@ -1,0 +1,4 @@
+PHP es un lenguaje de programación.
+Estoy aprendiendo PHP en mi curso.
+PHP es muy popular y usado junto a Python y Java..
+Otros lenguajes como Python también son buenos.
