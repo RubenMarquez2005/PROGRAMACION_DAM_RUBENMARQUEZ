@@ -1,0 +1,102 @@
+/* Fondo de la página */
+body {
+    background-color: #e0f7fa; /* Azul claro */
+    font-family: 'Arial', sans-serif; /* Fuente Arial */
+}
+
+
+/* Estilo del contenedor */
+.container {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 30px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 50px; /* Separación de arriba */
+}
+
+
+/* Títulos */
+h2 {
+    color: #00796b; /* Verde */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 20px; /* Espacio abajo */
+}
+
+
+/* Estilo de las tablas */
+.table {
+    margin-top: 20px; /* Espacio arriba */
+}
+
+
+/* Encabezado de la tabla */
+.table thead {
+    background-color: #00796b; /* Verde */
+    color: #fff; /* Blanco */
+}
+
+
+/* Botón primario */
+.btn-primary {
+    background-color: #00796b; /* Verde */
+    border-color: #00796b; /* Verde */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio dentro */
+}
+
+
+/* Efecto hover en el botón */
+.btn-primary:hover {
+    background-color: #004d40; /* Verde más oscuro */
+    border-color: #004d40; /* Verde más oscuro */
+}
+
+
+/* Alerta de advertencia */
+.alert-warning {
+    background-color: #fff3cd; /* Amarillo claro */
+    border-color: #ffeeba; /* Amarillo suave */
+    color: #856404; /* Marrón oscuro */
+}
+
+
+/* Estilo general de las alertas */
+.alert {
+    margin-top: 20px; /* Espacio arriba */
+}
+
+
+/* Botón secundario */
+.btn-secondary {
+    background-color: #004d40; /* Verde oscuro */
+    border-color: #004d40; /* Verde oscuro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio dentro */
+}
+
+
+/* Efecto hover en el botón secundario */
+.btn-secondary:hover {
+    background-color: #00251a; /* Verde más oscuro */
+    border-color: #00251a; /* Verde más oscuro */
+}
+
+
+/* Barra de navegación */
+.navbar-custom {
+    background-color: #00796b; /* Verde */
+}
+
+
+/* Links en la barra */
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: #fff !important; /* Blanco */
+}
+
+
+/* Campos de formulario */
+.form-control-custom {
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+
