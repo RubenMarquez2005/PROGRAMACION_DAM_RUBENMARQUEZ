@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS gestion_tareas;
+USE gestion_tareas;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_usuario VARCHAR(50) NOT NULL,
+    correo_electronico VARCHAR(100) NOT NULL UNIQUE,
+    contrasena VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS tareas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario_id INT NOT NULL,
+    descripcion TEXT NOT NULL,
+    completada BOOLEAN DEFAULT FALSE,
+    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
+);
+
+ALTER TABLE tareas ADD COLUMN fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP;

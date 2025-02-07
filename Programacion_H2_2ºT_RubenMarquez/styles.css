@@ -1,0 +1,131 @@
+/* Este archivo se encarga de definir los estilos CSS para la apariencia de la página web. */
+body { /* Estilos generales para el cuerpo de la página */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Color beige */
+}
+
+h1, h2 { /* Estilos para los títulos h1 y h2 */
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+form { /* Estilos para los formularios */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+label { /* Estilos para las etiquetas de los formularios */
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input[type="text"], /* Estilos para los campos de texto */
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button { /* Estilos para los botones */
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover { /* Estilos para el botón al pasar el cursor por encima */
+    background-color: #004c99;
+}
+
+a { /* Estilos para los enlaces */
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover { /* Estilos para el enlace al pasar el cursor por encima */
+    text-decoration: none;
+}
+
+.table-responsive { /* Estilos para las tablas responsivas */
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+table { /* Estilos para las tablas */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td { /* Estilos para las celdas de las tablas */
+    border: 1px solid #dee2e6;
+}
+
+th, td { /* Estilos para las celdas de encabezado y datos de las tablas */
+    padding: 12px;
+    text-align: center;
+}
+
+th { /* Estilos para las celdas de encabezado de las tablas */
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.d-flex { /* Estilos para los elementos con display flex */
+    display: flex;
+    gap: 5px;
+}
+
+.btn-sm { /* Estilos para los botones pequeños */
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.gap-2 { /* Estilos para los elementos con gap de 10px, espacio entre los elementos HTML de un contenedor*/
+    gap: 10px;
+}
+
+.gap-1 { /* Estilos para los elementos con gap de 5px, espacio entre los elementos HTML de un contenedor */
+    gap: 5px;
+}
+
+.btn-group { /* Estilos para los grupos de botones */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn { /* Estilos para los botones */
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {  /* Estilos para el botón al pasar el cursor por encima */
+    background-color: #0056b3;
+}
