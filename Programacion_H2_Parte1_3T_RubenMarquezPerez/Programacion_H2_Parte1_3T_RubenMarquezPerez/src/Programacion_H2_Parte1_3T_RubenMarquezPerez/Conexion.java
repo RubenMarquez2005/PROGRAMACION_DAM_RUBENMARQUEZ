@@ -6,7 +6,7 @@ public class Conexion {
 
     public static Connection obtenerConexion() {
         // Datos de conexión
-        String url = "jdbc:mysql://localhost:3306/cine_rubenmarquezperez"; // Cambiamos 'cine_nombreapellido' por tu base de datos
+        String url = "jdbc:mysql://localhost:3306/cine_rubenmarquezperez"; // Cambiamos 'cine_nombreapellido' por el nombre de la BBDD que hemos creado
         String usuario = "root";
         String contrasena = "curso"; 
 
