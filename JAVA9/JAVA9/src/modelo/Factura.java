@@ -15,7 +15,6 @@ public class Factura {
         this.total = total;
     }
 
-    // Getters y setters
     public int getIdFactura() {
         return idFactura;
     }
