@@ -30,7 +30,7 @@ public class Principal {
             System.out.print("Seleccione una opción: ");
 
             opcion = scanner.nextInt();
-            scanner.nextLine();  // Limpiar buffer
+            scanner.nextLine();  
 
             switch (opcion) {
                 case 1:
