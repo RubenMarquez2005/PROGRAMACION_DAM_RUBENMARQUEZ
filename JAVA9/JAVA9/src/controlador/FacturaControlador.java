@@ -12,8 +12,6 @@ public class FacturaControlador {
     public FacturaControlador() {
         facturaDAO = new FacturaDAO();
     }
-
-    // Método recibe fecha como String yyyy-MM-dd, la convierte a Date
     public void agregarFactura(int id, int idCliente, String fechaStr, double total) {
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
